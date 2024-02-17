@@ -14,7 +14,7 @@ public class NewBehaviourScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void Option()
+    public void Levels()
     {
         Optionpanel.alpha = 1;
         Optionpanel.blocksRaycasts = true;
