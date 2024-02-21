@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class NewBehaviourScript : MonoBehaviour
 {
 
+
     public CanvasGroup Optionpanel;
 
     public void PlayGame()
@@ -29,5 +30,10 @@ public class NewBehaviourScript : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void PlayGameLevel_1()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+
 }
-// fffffff
