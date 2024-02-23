@@ -3,16 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Logic
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - DrivingCar
   - Water
   - UI
-  - 
-  - 
+  - NpcCarsBody
+  - NpcCarsNearMiss
   - 
   - 
   - 
