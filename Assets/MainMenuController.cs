@@ -33,7 +33,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     public void PlayGameLevel_1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }
