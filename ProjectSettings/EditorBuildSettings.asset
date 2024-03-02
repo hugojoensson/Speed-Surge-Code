@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_2FailMenu.unity
     guid: 4cc6a4950c88d17459f57fa4587aa95a
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: dbd3b5b46e8cbab499be6aa47fbd0a49
+  - enabled: 1
+    path: Assets/Scenes/Level_3FailMenu.unity
+    guid: d7df353c9d9335c49b0b925181794a81
   m_configObjects: {}

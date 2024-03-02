@@ -40,5 +40,9 @@ public class NewBehaviourScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
+    public void PlayGameLevel_3()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+    }
 
 }
