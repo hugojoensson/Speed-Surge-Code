@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_3FailMenu.unity
     guid: d7df353c9d9335c49b0b925181794a81
+  - enabled: 1
+    path: Assets/Scenes/Level_4.unity
+    guid: 7b160b799fd509f4abe1fc45f365dd08
   m_configObjects: {}
