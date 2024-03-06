@@ -2,21 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Skript för near misses
+
+
 public class NearMissScript : MonoBehaviour
 {
     public LogicScript logic;
 
-    // Start is called before the first frame update
+    // Letar efter logic spelobjektet
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // Om spelojektet med skriptet på koliderar med ett annat objekt med det 3e lagret så regestreras en near miss
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == 3)
